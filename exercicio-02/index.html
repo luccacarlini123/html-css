@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    
+    <h1>Trabalhando com imagens dinâmicas</h1>
+
+    <p>Abra essa página em dispositivos diferentes, para que consiga ver as imagens mudando dinamicamente</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/imagem-G.png" alt="Imagem de maior tamanho">
+    </picture>
+
+    <h2>Abaixo iremos por uma música de Hip Hop para tocar</h2>
+
+    <p>Pega essa pedrada</p>
+
+    <audio controls preload="metadata" style="margin: 0; padding: 0;">
+        <source src="midia/forest-find-tracktribe.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Abaixo iremos reproduzir um video de hospedagem própria/interna</h2>
+    <p>Se liga!</p>
+
+    <video width="500" controls poster="imagens/paisagem-poster-video.jpg">
+        <source src="midia/video-1-reduzido.mp4" type="video/mp4">
+    </video>
+
+    <h2>Vídeos sendo reproduzidos externamente, YouTube, Vimeo...</h2>
+
+    <p>Vídeo do YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WSFN1l14l4c?si=nLRTM3Gxd5oYhZn9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <p>Vídeo do Vimeo</p>
+    <iframe src="https://player.vimeo.com/video/77310484?h=b0ce103670&autoplay=1" width="560" height="236" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+
+        body {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(129, 129, 129);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        nav {
+            background-color: rgb(68, 68, 68);
+            box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.411);
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding-right: 25px;
+            color: white;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.623);
+        }
+
+        main > section {
+            background-color: lightgray;
+            padding: 25px 5px;
+        }
+
+        main > section > aside {
+            background-color: rgb(119, 119, 119);
+        }
+
+        main> section > h2 {
+            margin: 0;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="noticias">
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quidem earum velit iusto quas magnam, voluptatum excepturi nobis rerum fuga modi dolor reiciendis ullam laudantium cumque unde perspiciatis. Exercitationem, vero.</p>
+            <aside>
+                Escrito por João da Silva
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por @LuccaCarlini</p>
+    </footer>
+
+</body>
+</html>

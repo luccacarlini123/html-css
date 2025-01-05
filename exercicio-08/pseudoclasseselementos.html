@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classe e elemento</title>
+
+    <style>
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a::after {
+            content: ' teste';
+            color: black;
+        }
+
+        a::before {
+            content: 'teste ';
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Trabalhando com Pseudo classes/elementos</h1>
+
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+    </ul>
+
+</body>
+</html>
